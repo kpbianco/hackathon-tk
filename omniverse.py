@@ -84,8 +84,8 @@ class Example:
                 spring_kd=0.0,
             )
 
-        usd_stage = Usd.Stage.Open(os.path.join(warp.examples.get_asset_directory(), "bunny.usd"))
-        usd_geom = UsdGeom.Mesh(usd_stage.GetPrimAtPath("/root/bunny"))
+        usd_stage = Usd.Stage.Open(os.path.join("./tire_models/Single_L_Front.usd"))
+        usd_geom = UsdGeom.Mesh(usd_stage.GetPrimAtPath("/root/L_Front_Tire"))
 
         mesh_points = np.array(usd_geom.GetPointsAttr().Get())
         mesh_indices = np.array(usd_geom.GetFaceVertexIndicesAttr().Get())
@@ -158,37 +158,46 @@ class Example:
 
 if __name__ == "__main__":
     import argparse
+    usd_stage = Usd.Stage.Open(os.path.join("./tire_models/Single_L_Front.usd"))
+    for prim in usd_stage.Traverse():
+        print(prim.GetPath())
+    usd_geom = UsdGeom.Mesh(usd_stage.GetPrimAtPath("/World/Single_L_Front/Object066"))
 
-    parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument("--device", type=str, default=None, help="Override the default Warp device.")
-    parser.add_argument(
-        "--stage_path",
-        type=lambda x: None if x == "None" else str(x),
-        default="example_cloth.usd",
-        help="Path to the output USD file.",
-    )
-    parser.add_argument("--num_frames", type=int, default=300, help="Total number of frames.")
-    parser.add_argument(
-        "--integrator",
-        help="Type of integrator",
-        type=IntegratorType,
-        choices=list(IntegratorType),
-        default=IntegratorType.EULER,
-    )
-    parser.add_argument("--width", type=int, default=64, help="Cloth resolution in x.")
-    parser.add_argument("--height", type=int, default=32, help="Cloth resolution in y.")
+    mesh_points = np.array(usd_geom.GetPointsAttr().Get())
+    mesh_indices = np.array(usd_geom.GetFaceVertexIndicesAttr().Get())
 
-    args = parser.parse_known_args()[0]
+    mesh = wp.sim.Mesh(mesh_points, mesh_indices)
+    print(mesh)
+    # parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    # parser.add_argument("--device", type=str, default=None, help="Override the default Warp device.")
+    # parser.add_argument(
+    #     "--stage_path",
+    #     type=lambda x: None if x == "None" else str(x),
+    #     default="example_cloth.usd",
+    #     help="Path to the output USD file.",
+    # )
+    # parser.add_argument("--num_frames", type=int, default=300, help="Total number of frames.")
+    # parser.add_argument(
+    #     "--integrator",
+    #     help="Type of integrator",
+    #     type=IntegratorType,
+    #     choices=list(IntegratorType),
+    #     default=IntegratorType.EULER,
+    # )
+    # parser.add_argument("--width", type=int, default=64, help="Cloth resolution in x.")
+    # parser.add_argument("--height", type=int, default=32, help="Cloth resolution in y.")
 
-    with wp.ScopedDevice(args.device):
-        example = Example(stage_path=args.stage_path, integrator=args.integrator, height=args.height, width=args.width)
+    # args = parser.parse_known_args()[0]
 
-        for _i in range(args.num_frames):
-            example.step()
-            example.render()
+    # with wp.ScopedDevice(args.device):
+    #     example = Example(stage_path=args.stage_path, integrator=args.integrator, height=args.height, width=args.width)
 
-        frame_times = example.profiler["step"]
-        print("\nAverage frame sim time: {:.2f} ms".format(sum(frame_times) / len(frame_times)))
+    #     for _i in range(args.num_frames):
+    #         example.step()
+    #         example.render()
 
-        if example.renderer:
-            example.renderer.save()
+    #     frame_times = example.profiler["step"]
+    #     print("\nAverage frame sim time: {:.2f} ms".format(sum(frame_times) / len(frame_times)))
+
+    #     if example.renderer:
+    #         example.renderer.save()
