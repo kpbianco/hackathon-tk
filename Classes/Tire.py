@@ -1,76 +1,81 @@
 class Tire:
     def __init__(self, 
-                 tire_pressure=0.0, 
-                 tire_temp=0.0, 
-                 tire_wear=0.0, 
-                 tire_speed=0.0, 
-                 tire_grip=0.0, 
-                 tire_load=0.0, 
-                 tire_wear_percent=0.0, 
-                 tire_slip_ratio=0.0, 
-                 tire_slip_angle=0.0, 
-                 tire_vert_defl=0.0, 
-                 tire_surf_temp=0.0, 
-                 tire_carcass_temp=0.0, 
-                 tire_inner_temp=0.0, 
-                 tire_middle_temp=0.0, 
-                 tire_outer_temp=0.0, 
-                 tire_type="", 
-                 tire_compound="", 
-                 patch_load=0.0, 
-                 tire_air_pressure=0.0, 
-                 patch_temp=0.0, 
-                 friction_coef=0.0, 
-                 rotational_speed=0.0, 
-                 corner_stiffness=0.0, 
-                 long_stiffness=0.0, 
-                 aligning_torque=0.0, 
-                 drag_force=0.0, 
-                 overheat=False, 
-                 flat_spot=False, 
-                 speed_diff=0.0, 
-                 load_sensitivity=0.0):
-        
-        self.tire_pressure = tire_pressure
-        self.tire_temp = tire_temp
-        self.tire_wear = tire_wear
-        self.tire_speed = tire_speed
-        self.tire_grip = tire_grip
-        self.tire_load = tire_load
-        self.tire_wear_percent = tire_wear_percent
-        self.tire_slip_ratio = tire_slip_ratio
-        self.tire_slip_angle = tire_slip_angle
-        self.tire_vert_defl = tire_vert_defl
-        self.tire_surf_temp = tire_surf_temp
-        self.tire_carcass_temp = tire_carcass_temp
-        self.tire_inner_temp = tire_inner_temp
-        self.tire_middle_temp = tire_middle_temp
-        self.tire_outer_temp = tire_outer_temp
-        self.tire_type = tire_type
-        self.tire_compound = tire_compound
-        self.patch_load = patch_load
-        self.tire_air_pressure = tire_air_pressure
-        self.patch_temp = patch_temp
-        self.friction_coef = friction_coef
-        self.rotational_speed = rotational_speed
-        self.corner_stiffness = corner_stiffness
-        self.long_stiffness = long_stiffness
-        self.aligning_torque = aligning_torque
-        self.drag_force = drag_force
-        self.overheat = overheat
-        self.flat_spot = flat_spot
-        self.speed_diff = speed_diff
-        self.load_sensitivity = load_sensitivity
+                 wearL=[], pressure=[], tempM=[], tempL=[], tiresUsed=[], 
+                 tempCL=[], brakeLinePress=[], shockDefl=[], tempCR=[], tempCM=[], 
+                 tempR=[], coldPressure=[], rideHeight=[], shockVel=[], speed=[], 
+                 wearM=[], wearR=[], rumblePitch=[]):
+        self.wearL = wearL
+        self.pressure = pressure
+        self.tempM = tempM
+        self.tempL = tempL
+        self.tiresUsed = tiresUsed
+        self.tempCL = tempCL
+        self.brakeLinePress = brakeLinePress
+        self.shockDefl = shockDefl
+        self.tempCR = tempCR
+        self.tempCM = tempCM
+        self.tempR = tempR
+        self.coldPressure = coldPressure
+        self.rideHeight = rideHeight
+        self.shockVel = shockVel
+        self.speed = speed
+        self.wearM = wearM
+        self.wearR = wearR
+        self.rumblePitch = rumblePitch
+
+    def get_value_at(self, index, default=0):
+        return {
+            'wearL': self.wearL[index] if index < len(self.wearL) else default,
+            'pressure': self.pressure[index] if index < len(self.pressure) else default,
+            'tempM': self.tempM[index] if index < len(self.tempM) else default,
+            'tempL': self.tempL[index] if index < len(self.tempL) else default,
+            'tiresUsed': self.tiresUsed[index] if index < len(self.tiresUsed) else default,
+            'tempCL': self.tempCL[index] if index < len(self.tempCL) else default,
+            'brakeLinePress': self.brakeLinePress[index] if index < len(self.brakeLinePress) else default,
+            'shockDefl': self.shockDefl[index] if index < len(self.shockDefl) else default,
+            'tempCR': self.tempCR[index] if index < len(self.tempCR) else default,
+            'tempCM': self.tempCM[index] if index < len(self.tempCM) else default,
+            'tempR': self.tempR[index] if index < len(self.tempR) else default,
+            'coldPressure': self.coldPressure[index] if index < len(self.coldPressure) else default,
+            'rideHeight': self.rideHeight[index] if index < len(self.rideHeight) else default,
+            'shockVel': self.shockVel[index] if index < len(self.shockVel) else default,
+            'speed': self.speed[index] if index < len(self.speed) else default,
+            'wearM': self.wearM[index] if index < len(self.wearM) else default,
+            'wearR': self.wearR[index] if index < len(self.wearR) else default,
+            'rumblePitch': self.rumblePitch[index] if index < len(self.rumblePitch) else default
+        }
+    
+    def assign_df(self, df, headerlist):
+        self.wearL = df[headerlist[0]].values.tolist()
+        self.pressure = df[headerlist[1]].values.tolist()
+        self.tempM = df[headerlist[2]].values.tolist()
+        self.tempL = df[headerlist[3]].values.tolist()
+        self.tiresUsed = df[headerlist[4]].values.tolist()
+        self.tempCL = df[headerlist[5]].values.tolist()
+        self.brakeLinePress = df[headerlist[6]].values.tolist()
+        self.shockDefl = df[headerlist[7]].values.tolist()
+        self.tempCR = df[headerlist[8]].values.tolist()
+        self.tempCM = df[headerlist[9]].values.tolist()
+        self.tempR = df[headerlist[10]].values.tolist()
+        self.coldPressure = df[headerlist[11]].values.tolist()
+        self.rideHeight = df[headerlist[12]].values.tolist()
+        self.shockVel = df[headerlist[13]].values.tolist()
+        self.speed = df[headerlist[14]].values.tolist()
+        self.wearM = df[headerlist[15]].values.tolist()
+        self.wearR = df[headerlist[16]].values.tolist()
+        self.rumblePitch = df[headerlist[17]].values.tolist()
+
+    def print_values_at_index(self, index):
+        values = self.get_value_at(index)
+        print(f"Values at index {index}:")
+        for key, value in values.items():
+            print(f"{key}: {value}")
 
     def __repr__(self):
-        return (f"Tire(tire_pressure={self.tire_pressure}, tire_temp={self.tire_temp}, tire_wear={self.tire_wear}, "
-                f"tire_speed={self.tire_speed}, tire_grip={self.tire_grip}, tire_load={self.tire_load}, "
-                f"tire_wear_percent={self.tire_wear_percent}, tire_slip_ratio={self.tire_slip_ratio}, "
-                f"tire_slip_angle={self.tire_slip_angle}, tire_vert_defl={self.tire_vert_defl}, "
-                f"tire_surf_temp={self.tire_surf_temp}, tire_carcass_temp={self.tire_carcass_temp}, "
-                f"tire_inner_temp={self.tire_inner_temp}, tire_middle_temp={self.tire_middle_temp}, "
-                f"tire_outer_temp={self.tire_outer_temp}, tire_type={self.tire_type}, tire_compound={self.tire_compound}, "
-                f"patch_load={self.patch_load}, tire_air_pressure={self.tire_air_pressure}, patch_temp={self.patch_temp}, "
-                f"friction_coef={self.friction_coef}, rotational_speed={self.rotational_speed}, corner_stiffness={self.corner_stiffness}, "
-                f"long_stiffness={self.long_stiffness}, aligning_torque={self.aligning_torque}, drag_force={self.drag_force}, "
-                f"overheat={self.overheat}, flat_spot={self.flat_spot}, speed_diff={self.speed_diff}, load_sensitivity={self.load_sensitivity})")
+        return (f"Tire(wearL={self.wearL}, pressure={self.pressure}, tempM={self.tempM}, "
+                f"tempL={self.tempL}, tiresUsed={self.tiresUsed}, tempCL={self.tempCL}, "
+                f"brakeLinePress={self.brakeLinePress}, shockDefl={self.shockDefl}, "
+                f"tempCR={self.tempCR}, tempCM={self.tempCM}, tempR={self.tempR}, "
+                f"coldPressure={self.coldPressure}, rideHeight={self.rideHeight}, "
+                f"shockVel={self.shockVel}, speed={self.speed}, wearM={self.wearM}, "
+                f"wearR={self.wearR}, rumblePitch={self.rumblePitch})")
