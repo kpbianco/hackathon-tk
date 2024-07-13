@@ -1,0 +1,742 @@
+Warp 1.2.2 initialized:
+   CUDA devices not available
+   Devices:
+     "cpu"      : "x86_64"
+   Kernel cache:
+     /home/kbianco/.cache/warp/1.2.2
+Number of particles: 2202
+Step start
+Simulate step
+Launching apply_forces kernel for 2202 particles
+	Module __main__ 487030a load on device 'cpu' took 219.16 ms
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+step took 499.66 ms
+Step end
+Render start
+render took 100.05 ms
+Render end
+Step start
+Simulate step
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+step took 121.90 ms
+Step end
+Render start
+render took 3.47 ms
+Render end
+Step start
+Simulate step
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+step took 120.20 ms
+Step end
+Render start
+render took 1.39 ms
+Render end
+Step start
+Simulate step
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+step took 116.34 ms
+Step end
+Render start
+render took 1.54 ms
+Render end
+Step start
+Simulate step
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+step took 118.92 ms
+Step end
+Render start
+render took 2.46 ms
+Render end
+Step start
+Simulate step
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+step took 118.11 ms
+Step end
+Render start
+render took 1.56 ms
+Render end
+Step start
+Simulate step
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+step took 116.58 ms
+Step end
+Render start
+render took 1.30 ms
+Render end
+Step start
+Simulate step
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+step took 117.42 ms
+Step end
+Render start
+render took 1.35 ms
+Render end
+Step start
+Simulate step
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+step took 116.60 ms
+Step end
+Render start
+render took 1.27 ms
+Render end
+Step start
+Simulate step
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+step took 116.77 ms
+Step end
+Render start
+render took 1.29 ms
+Render end
+Step start
+Simulate step
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles
+Launching apply_forces kernel for 2202 particles
+Launching integrate kernel for 2202 particles

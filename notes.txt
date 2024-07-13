@@ -1,0 +1,4 @@
+pxr: https://docs.omniverse.nvidia.com/kit/docs/kit-manual/104.0/api/pxr.html
+classpxr.Usd.Stage
+    create new, fps, 
+    getPrimAtPath, [Load/open], save, export, 
