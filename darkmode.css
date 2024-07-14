@@ -3,7 +3,7 @@ QWidget {
     background-color: #2E2E2E;
     color: #F0F0F0;
     font-family: Arial, sans-serif;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 /* Button styling */
@@ -105,7 +105,7 @@ QCheckBox::indicator:unchecked {
 
 QCheckBox::indicator:checked {
     border: 1px solid #555555;
-    background-color: #4A4A4A;
+    background-color: #0078D7;
 }
 
 QCheckBox::indicator:unchecked:hover {
@@ -143,4 +143,29 @@ QRadioButton::indicator:unchecked:hover {
 
 QRadioButton::indicator:checked:hover {
     border: 1px solid #F0F0F0;
+}
+
+QTableWidget {
+    background-color: #3A3A3A;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    color: #F0F0F0;
+}
+
+QTableWidget QHeaderView::section {
+    background-color: #4A4A4A;
+    border: none;
+    padding: 4px;
+    color: #F0F0F0;
+}
+
+QTableWidget::item {
+    background-color: #3A3A3A;
+    padding: 4px;
+    border-bottom: 1px solid #555555;
+}
+
+QTableWidget::item:selected {
+    background-color: #0078D7;
+    color: #F0F0F0;
 }

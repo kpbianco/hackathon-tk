@@ -46,7 +46,7 @@ class Tire:
         }
     
     def assign_df(self, df, headerlist):
-        self.wearL = df[headerlist[0]].values.tolist()
+        self.wearL = df[headerlist[0]].astype(float).values.tolist()
         self.pressure = df[headerlist[1]].values.tolist()
         self.tempM = df[headerlist[2]].values.tolist()
         self.tempL = df[headerlist[3]].values.tolist()
@@ -61,9 +61,16 @@ class Tire:
         self.rideHeight = df[headerlist[12]].values.tolist()
         self.shockVel = df[headerlist[13]].values.tolist()
         self.speed = df[headerlist[14]].values.tolist()
-        self.wearM = df[headerlist[15]].values.tolist()
-        self.wearR = df[headerlist[16]].values.tolist()
+        self.wearM = df[headerlist[15]].astype(float).values.tolist()
+        self.wearR = df[headerlist[16]].astype(float).values.tolist()
         self.rumblePitch = df[headerlist[17]].values.tolist()
+
+    def get_wear(self, index):
+        return {
+            'wearL': self.wearL[index] if index < len(self.wearL) else 0.0,
+            'wearM': self.wearM[index] if index < len(self.wearM) else 0.0,
+            'wearR': self.wearR[index] if index < len(self.wearR) else 0.0
+        }
 
     def print_values_at_index(self, index):
         values = self.get_value_at(index)
